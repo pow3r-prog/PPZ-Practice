@@ -1,12 +1,14 @@
 [tool.poetry]
 name = "ppz"
-version = "0.1.0"
+version = "0.4.0"
 description = ""
 authors = ["Andreichuk Volodymyr <v.andreichuk@firstsport.io>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
+requests = "^2.28.2"
+beautifulsoup4 = "^4.12.2"
 
 
 [build-system]
